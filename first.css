@@ -1,5 +1,5 @@
 * {
-    font-family:  'Arial Narrow Bold';
+    font-family: 'Arial Narrow Bold';
 }
 
 header {
@@ -7,25 +7,38 @@ header {
 }
 
 .nav-item {
-    /* color : black; */
     border-radius: 10px;
-    border : 2px solid grey;
-    margin : 5px;
+    border: 2px solid grey;
+    margin: 5px;
 }
 
-.nav-item :hover {
-    border-radius : 10px;
-    background-color : rgba(0, 0, 0, 0.415);
-    color : white;
+.nav-item:hover {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.415);
+    color: white;
 }
 
-/* .card_h-100{
-    height : 100%;
-    
-} */
+
 .card-img-top {
-    height: 400px; /* Set a fixed height for uniformity */
-    object-fit: cover; /* Ensure images cover the space */
+     width: 100%; 
+    height: 300px;       
+    object-fit: cover;  
+     border-radius: 8px; 
+           
+}
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
